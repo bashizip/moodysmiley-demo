@@ -8,6 +8,45 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+    <com.bashizip.moodysmiley.SmileyView
+            android:id="@+id/smiley1"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="16dp"
+            app:state="happy"
+            app:borderColor="#000"
+            app:borderWidth="16dp"
+            app:eyesColor="#FFFFFF"
+            app:faceColor="#009688"
+            app:mouthColor="#FFFFFF"
+    />
 
+    <com.bashizip.moodysmiley.SmileyView
+            android:id="@+id/smiley2"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="16dp"
+            app:state="sad"
+            app:borderWidth="16dp"
+            app:faceColor="#FFEB3B"
+            app:borderColor="#FFF"
+            app:eyesColor="#000"
+            app:mouthColor="#000"
+    />
 
+    <com.bashizip.moodysmiley.SmileyView
+            android:id="@+id/moody_smiley"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="16dp"
+            app:state="happy"
+            app:borderColor="#FFF"
+            app:borderWidth="16dp"
+            app:eyesColor="#FFF"
+            app:faceColor="#795548"
+            app:mouthColor="#FFF"
+    />
 </LinearLayout>

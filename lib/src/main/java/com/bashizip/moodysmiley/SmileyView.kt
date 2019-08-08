@@ -24,7 +24,7 @@ class SmileyView(context: Context?, attrs: AttributeSet?) : View(context, attrs)
 
     private  var mHandler = Handler()
 
-    var moody = true
+    var moody = false
 
     init {
 
