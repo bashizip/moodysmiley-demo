@@ -42,7 +42,7 @@
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_margin="16dp"
-            app:state="happy"
+            app:state="sad"
             app:borderColor="#FFF"
             app:borderWidth="16dp"
             app:eyesColor="#FFF"
